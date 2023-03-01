@@ -1,3 +1,4 @@
+@UI
 Feature: Calculating the factorial numbers
 
   Background:
@@ -40,6 +41,4 @@ Feature: Calculating the factorial numbers
     When user clicks on Terms and Conditions link
     Then user should be taken to the Terms and Conditions page
 
-  Scenario: API post request
-    When user sends a post request using Content type
 
